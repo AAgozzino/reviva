@@ -1,6 +1,6 @@
 # Reviva dev test
 
-Reviva dev test is a PHP application that prints the receipt details for the given shopping basket.
+Reviva dev test is a PHP application that prints the receipt details for the given shopping basket. It takes product's price adding sales tax (except for books, food and medical products) and import duty.
 
 ## Installation
 
