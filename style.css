@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* Typography */
+body{
+    font-family: sans-serif;
+}
+
+/* MIX */
+.page-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#859398 35%, #283048 100%);
+}
+
+.d-none{
+    display: none;
+}
+
+/* Receipt */
+.container{
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px #333333;
+}
+
+.select-menu{
+    margin-top: 20px;
+}
+
+.product-row{
+    display: flex;
+    align-items: center;
+    height: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.product-amount{
+    width: 20px;
+}
+
+.product-name{
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.taxes-row, .total-row{
+    height: 20px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
